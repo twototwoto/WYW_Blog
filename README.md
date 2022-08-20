@@ -46,6 +46,9 @@
 ## 架构学习
 - [架构理解](https://github.com/twototwoto/WYW_Blog/wiki/%E6%9E%B6%E6%9E%84%E7%90%86%E8%A7%A3)
 
+## 设计模式
+- [设计模式](https://github.com/twototwoto/WYW_Blog/wiki/%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F)
+
 ## 小知识点
 - [Swift 小知识点](https://github.com/twototwoto/WYW_Blog/wiki/Swift-%E9%9B%B6%E6%95%A3%E7%9F%A5%E8%AF%86%E7%82%B9)
 
