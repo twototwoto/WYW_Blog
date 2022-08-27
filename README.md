@@ -38,6 +38,7 @@
 - [Dart 基础（二）](https://github.com/twototwoto/WYW_Blog/wiki/Dart%E5%9F%BA%E7%A1%80%EF%BC%88%E4%BA%8C%EF%BC%89)
 - [Dart 基础（三）](https://github.com/twototwoto/WYW_Blog/wiki/Dart%E5%9F%BA%E7%A1%80%EF%BC%88%E4%B8%89%EF%BC%89)
 - [Flutter 技术选型考虑](https://github.com/twototwoto/WYW_Blog/wiki/Flutter-%E6%8A%80%E6%9C%AF%E9%80%89%E5%9E%8B%E8%80%83%E8%99%91)
+- [GetX](https://github.com/twototwoto/WYW_Blog/wiki/Flutter-GetX)
 
 
 ## 网络
