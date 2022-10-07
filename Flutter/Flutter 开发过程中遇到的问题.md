@@ -1,4 +1,19 @@
-## Flutter 开发过程中遇到的问题
+# Flutter 开发过程中遇到的问题
+
+## # 常用属性
+### physics
+可滚动视图，可能需要设置是否可滚动或不可滚动，可以通过其 physics 属性控制。
+```dart
+physics: const NeverScrollableScrollPhysics(),
+```
+### maxWidth
+Container、BoxConstraints 都可设置其 constraints 属性的 maxWidth，从而控制组件可被撑起的最大宽度。
+
+### overflow
+Text 的 overflow 属性可控制文本截断的方式，文本的截断一般会配合着显示最大行数 maxLines 一起出现。
+```dart
+overflow: TextOverflow.ellipsis,
+```
 
 ### 一、Your Xcode project requires migration
 
@@ -9,13 +24,9 @@ Error launching application on iPhone SE (2nd generation).
 ```
 
 #### 修改方式：
-
 ###### 1、打开 Xcode；
-
 ###### 2、删除 App.framework、Flutter.framework；
-
 ###### 3、查看 BuildPhases 中的链接文件；
-
 ###### 4、Build Phases -> Thin Binary script 部分填写如下脚本
 
 ```shell
