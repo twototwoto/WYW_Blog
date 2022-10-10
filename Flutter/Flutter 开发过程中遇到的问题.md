@@ -74,6 +74,23 @@ GetPage(
 
 - https://moejj.com/flutterzhuang-tai-guan-li-cha-jian-get/
 
+## # Flutter 检测图片是否存在，待测试中。主要是 File 和图片的路径的结合。
+
+- https://stackoverflow.com/questions/52614610/check-if-a-file-exists-before-loading-it
+- https://github.com/flutter/flutter/issues/70010
+
+
+```dart
+static void testExist() async {
+    // Image.file(io.File(''));
+    const String path = 'assets/images/xxx.png';
+    bool exists = await io.File(path).exists();
+    Utils.debugPrint('exists $exists');
+    exists = await io.File('xxx.png').exists();
+    Utils.debugPrint('exists $exists');
+  }
+```
+
 ## # Your Xcode project requires migration
 
 ```
