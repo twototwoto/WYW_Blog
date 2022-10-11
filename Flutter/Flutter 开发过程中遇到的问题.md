@@ -15,7 +15,7 @@ Text 的 overflow 属性可控制文本截断的方式，文本的截断一般�
 overflow: TextOverflow.ellipsis,
 ```
 
-### WillPopScope 侧滑返回拦截
+### WillPopScope 拦截侧滑返回
 
 有时需要禁用侧滑返回或需要拦截用户防误触的侧滑返回，可使用 WillPopScope Widget 进行包裹。
 
