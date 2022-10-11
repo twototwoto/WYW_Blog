@@ -15,6 +15,27 @@ Text 的 overflow 属性可控制文本截断的方式，文本的截断一般�
 overflow: TextOverflow.ellipsis,
 ```
 
+### WillPopScope 侧滑返回拦截
+
+有时需要禁用侧滑返回或需要拦截用户防误触的侧滑返回，可使用 WillPopScope Widget 进行包裹。
+
+```dart
+_bodyView() {
+    return WillPopScope(
+        child: _childWidget(),
+        onWillPop: () async {
+          // 这里的返回值控制能否侧滑返回
+          return false;
+        });
+  }
+```
+
+- https://book.flutterchina.club/chapter7/willpopscope.html
+- http://laomengit.com/guide/navigator/WillPopScope.html
+
+
+
+
 > FlutterError (setState() or markNeedsBuild() called during build. This Obx widget cannot be marked as needing to build because the framework is already in the process of building widgets. A widget can be marked as needing to be built during the build phase only if one of its ancestors is currently building. This exception is allowed because the framework builds parent widgets before children, which means a dirty descendant will always be built. Otherwise, the framework might not visit this widget during this build phase. The widget on which setState() or markNeedsBuild() was called was:  Obx The widget which was currently being built when the offending call was made was:  _FocusMarker)
 
 ```dart
