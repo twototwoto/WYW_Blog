@@ -55,3 +55,5 @@ CTRL-C
 - [前端在本地启动服务预览html页面](https://www.cnblogs.com/lxn2/p/10006222.html)
 - [使用http-server零配置在本地开启http服务器](https://blog.csdn.net/qq_30100043/article/details/73105362)
 
+# hugo
+- [hugo-tutorial](https://cloudcannon.com/community/learn/hugo-tutorial/)
