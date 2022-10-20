@@ -57,3 +57,8 @@ CTRL-C
 
 # hugo
 - [hugo-tutorial](https://cloudcannon.com/community/learn/hugo-tutorial/)
+
+# [WordPress](https://cn.wordpress.org/)
+
+### 相关教程
+- [手动搭建WordPress（CentOS 8）](https://help.aliyun.com/document_detail/184111.html)
