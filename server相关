@@ -1,0 +1,2 @@
+## ubuntu
+- ubuntu  没有图形化界面，为了查看环境部署结构，也可在 ubuntu 终端使用 curl 的方式触发 localhost 的接口请求，查看响应结果。
