@@ -1,5 +1,19 @@
 # Node
 
+## # 跨域问题
+```json
+Access to XMLHttpRequest at 'http://localhost:8080/business?page=1&pageSize=10' from origin 'http://localhost:3000' has been blocked by CORS policy: The value of the 'Access-Control-Allow-Credentials' header in the response is '' which must be 'true' when the request's credentials mode is 'include'. The credentials mode of requests initiated by the XMLHttpRequest is controlled by the withCredentials attribute.
+```
+
+##### 解决方式
+```js
+response.writeHead(200, {
+		'Content-Type': 'application/json',
+		'Access-Control-Allow-Origin': 'http://localhost:3000',
+		'Access-Control-Allow-Credentials': true,
+	})
+  ```
+  
 ## # debug 启动失败问题
 
 ### 前言
