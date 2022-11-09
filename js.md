@@ -1,0 +1,2 @@
+- [js this](https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Operators/this)
+- [Unhandled promise rejection --解决办法](https://blog.csdn.net/ICANDOD/article/details/81081292)

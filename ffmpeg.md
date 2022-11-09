@@ -1,0 +1,3 @@
+- [下载 ffmpeg](https://ffmpeg.org/download.html)
+- [ffprobe 文档](https://ffmpeg.org/ffprobe.html)
+- [下载 ffprobe 方式1](https://ffbinaries.com/downloads)
