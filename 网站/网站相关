@@ -2,3 +2,9 @@
 - [arco](https://arco.design/react/docs/start) 可用于快速创建前端管理后台项目
 - [国际化](https://arco.design/react/docs/i18n)
 - [模拟数据](https://arco.design/docs/pro/mock)
+
+## 注意事项
+-  有时使用 v-model 绑定数据时，提示要求提供字符串类型的数据
+有时使用 v-model 绑定数据时，提示要求提供的数据类型为字符串类型，说明组件所需的值是字符串类型。如果组件所需的类型为数值类型，就不会有类似问题。
+## 组件
+- [动态表单](https://arco.design/vue/component/form#dynamic)
