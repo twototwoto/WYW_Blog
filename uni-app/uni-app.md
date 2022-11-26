@@ -6,6 +6,7 @@
 - https://developer.open-douyin.com/docs/resource/zh-CN/mini-app/develop/component/view-container/swiper
 - https://uniapp.dcloud.net.cn/component/swiper.html#swiper
 - https://github.com/dcloudio/uni-ui
+- [uni-app swiper数量过多时卡顿优化方案](https://blog.csdn.net/weixin_38946164/article/details/122967037)
 
 
 ## 资源文件
