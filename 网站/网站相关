@@ -2,3 +2,31 @@
 - [arco](https://arco.design/react/docs/start) 可用于快速创建前端管理后台项目
 - [国际化](https://arco.design/react/docs/i18n)
 - [模拟数据](https://arco.design/docs/pro/mock)
+
+## 跨域问题
+
+在 vite.config.dev.ts 文件中添加如下配置。
+以 https://www.xxx.com 为目标网址为例
+```ts
+ proxy: {
+        '/api': {
+          target: 'https://www.xxx.com',
+          changeOrigin: true,
+          rewrite: (path) => path.replace(/^\/api/, ''),
+        },
+      },
+```
+在 项目的 .env.development 和 .env.production 文件中写明项目环境本地接口。
+如开发环境 .env.development 文件写明 VITE_API_BASE_URL= 'http://127.0.0.1:5173/api'，以保证项目本地开发时不会出现跨域问题。
+如生产环境.env.production 文件写明VITE_API_BASE_URL= 'http://www.xxx.com/'，这样项目上线后，不会出现跨域问题。
+### 以开发环境为例小结：
+1、对于本地环境开发，.env.development 文件注明的 VITE_API_BASE_URL= 'http://127.0.0.1:5173/api'，保证了项目本地开发时不会出现跨域问题。
+2、vite.config.dev.ts proxy 部分参数会注明只要是 axios 带 api/ 开头请求出来的接口会接口转发到目标网址 https://www.xxx.com 的接口地址。
+
+- 相关网址：[Arco Design Pro Vue跨域设置方式](https://www.02405.com/archives/8463)
+
+## 注意事项
+-  有时使用 v-model 绑定数据时，提示要求提供字符串类型的数据
+有时使用 v-model 绑定数据时，提示要求提供的数据类型为字符串类型，说明组件所需的值是字符串类型。如果组件所需的类型为数值类型，就不会有类似问题。
+## 组件
+- [动态表单](https://arco.design/vue/component/form#dynamic)
