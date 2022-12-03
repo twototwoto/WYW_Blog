@@ -1,3 +1,5 @@
 - [下载 ffmpeg](https://ffmpeg.org/download.html)
 - [ffprobe 文档](https://ffmpeg.org/ffprobe.html)
 - [下载 ffprobe 方式1](https://ffbinaries.com/downloads)
+- ffmpeg 可用于拆封mp4，合并mp4，把mp4切分成多个ts，把mp4转为m3u8，以m3u8这种类似TS切片配置文件的方式播放视频。
+- ffmpeg 拆分视频时注意hlstime指定的方式
