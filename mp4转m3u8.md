@@ -53,5 +53,8 @@ xxxxConcat11.ts
 ```
 
 ## 参考学习网址
+- [ffmpeg](http://www.ffmpeg.org/)
+- [ffmpeg 文档](http://www.ffmpeg.org/ffmpeg.html)
 - https://evermeet.cx/ffmpeg/
+[【开发踩坑】EXT-X-DISCONTINUITY 合并多个 m3u8 文件到一个 m3u8](https://blog.csdn.net/AlphaBr/article/details/128032422)
 - 其他参考学习链接在补充中
