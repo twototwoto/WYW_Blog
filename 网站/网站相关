@@ -30,3 +30,8 @@
 有时使用 v-model 绑定数据时，提示要求提供的数据类型为字符串类型，说明组件所需的值是字符串类型。如果组件所需的类型为数值类型，就不会有类似问题。
 ## 组件
 - [动态表单](https://arco.design/vue/component/form#dynamic)
+
+### 折线图
+Arco Design 折线图看起来使用的 echarts，相关 ref 如下。
+- [echarts 官网入门](https://echarts.apache.org/handbook/zh/get-started/)
+- [w3cscholl echarts 配置相关资料](https://www.w3cschool.cn/echarts_tutorial/echarts_tutorial-pj1y2cuo.html)
