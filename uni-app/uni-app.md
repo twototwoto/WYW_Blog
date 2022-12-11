@@ -6,7 +6,14 @@
 - 需有重试
 - 需考虑取消或终止接口任务（如出错、超时或页面销毁等）
 - 须有异常捕获且捕获后不能吞掉异常，要把异常信息提示或其他处理
+
+## 音视频
+以视频为例，一般情况下，创建 videoContext 并 play 较为合适的地方在 onReady 方法中。页面消失时或者页面未显示时，需要注意把相应的 videoContext 触发 pause 或有需要的话触发 stop。有时页面消失时触发 pause 方法可能未生效，这种情况下，可在播放会触发到的 @play 和 @timeupdate 相应的方法回调中，再次触发 pause 或 stop。
 ## 组件
+
+### 事件处理
+- 以 button 组件的事件方法为例，是可以操作事件冒泡，捕获相关的方法的
+- 如果想要手动触发按钮的点击，可以尝试获取到对应元素，然后再触发相应 click 方法（这种方式待验证）
 ## Swiper
 
 - https://developer.open-douyin.com/docs/resource/zh-CN/mini-app/develop/component/view-container/swiper
