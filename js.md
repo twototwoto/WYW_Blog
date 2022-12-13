@@ -42,3 +42,8 @@ const timestampString = function() {
 - [js实现接口请求重试](https://blog.csdn.net/SongZhengxing_/article/details/128074175)
 
 
+
+##### JS 事件冒泡和事件捕获
+
+- [终于弄懂了事件冒泡和事件捕获！](https://blog.csdn.net/chenjuan1993/article/details/81347590)
+- [JS之事件捕获和事件冒泡](https://blog.csdn.net/m0_37937502/article/details/82830992)
