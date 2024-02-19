@@ -12,7 +12,7 @@
 
 ##### 3、解决办法
 
-在相应目录下添加上相应 CategoryNSObject 文件（下载缺失的文件：https://www.icloud.com/iclouddrive/027-JUISnmGAy_Zj0Lu5H3NEA#xcode-objc）、[缺失的文件下载副本](https://github.com/twototwoto/WYW_Blog/blob/master/Xcode/xcode-objc.tar.gz)即可解决相关问题。
+在相应目录下添加上相应 CategoryNSObject 文件（下载缺失的文件：[https://www.icloud.com/iclouddrive/027-JUISnmGAy_Zj0Lu5H3NEA#xcode-objc](https://www.icloud.com/iclouddrive/027-JUISnmGAy_Zj0Lu5H3NEA#xcode-objc)）、[缺失的文件下载副本](https://github.com/twototwoto/WYW_Blog/blob/master/Xcode/xcode-objc.tar.gz)即可解决相关问题。
 
 ##### 4、参考学习网址
 
