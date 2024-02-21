@@ -81,3 +81,6 @@ NS_ASSUME_NONNULL_END
 
 @end
 ```
+
+##### dispatch_barrier_sync和dispatch_sync
+- [https://www.jianshu.com/p/814e51e2e8e5](https://www.jianshu.com/p/814e51e2e8e5)
