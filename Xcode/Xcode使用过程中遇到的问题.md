@@ -1,5 +1,5 @@
 
-#### Xcode 15.2 无法创建 Category
+#### # Xcode 15.2 无法创建 Category
 
 ##### 1、问题
 
@@ -17,4 +17,21 @@
 ##### 4、参考学习网址
 
 - https://forums.developer.apple.com/forums/thread/743032
+----
+#### # Xcode 15.2 Sandbox: rsync.samba(44939) deny(1) file-write-create
 
+##### 1、问题
+Xcode 15.2 新建的一个 Swift Demo 项目编译遇到如下问题
+
+Sandbox: rsync.samba(44939) deny(1) file-write-create /Developer/Xcode/DerivedData/SwiftDemo-fhtidyssgxnehiaplcehkvkimwgg/Build/Products/Debug-iphonesimulator/SwiftDemo.app/Frameworks/RxCocoa.framework/.RxCocoa.hDBLvW
+
+##### 2、解决办法
+
+把 ENABLE_USER_SCRIPT_SANDBOXING 的值修改为 NO（ENABLE_USER_SCRIPT_SANDBOXING 位于 Build Settings > Build Options下）
+
+> Check that `ENABLE_USER_SCRIPT_SANDBOXING` is disabled in the project's build settings.
+
+> Disabling 'User Script Sandboxing' under the Project's Build Settings > Build Options fixed the issue for me as well! Thanks!
+
+##### 3、参考学习网址
+- https://forums.developer.apple.com/forums/thread/731041
