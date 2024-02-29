@@ -3,3 +3,7 @@
 
 ## Swift Packages
 - [为你的 App 添加移除软件包依赖项](https://developer.apple.com/cn/documentation/xcode/adding_package_dependencies_to_your_app/)
+
+## RxSwift
+- https://beeth0ven.github.io/RxSwift-Chinese-Documentation/
+- https://academy.realm.io/cn/posts/altconf-scott-gardner-reactive-programming-with-rxswift/
