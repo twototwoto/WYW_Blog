@@ -41,3 +41,9 @@
 - 4、审核使用的预览图上不能包含 debug 标识信息
 
   - 拒审的理由一般包含：Guideline 2.3.10 - Performance - Accurate Metadata. We noticed your submission includes irrelevant references to your app's development process. your screenshots include debug banners. Since apps on the App Store should be ready for users, they should not include references to the development process.
+ 
+##### 关于付款信息
+- [最低付款门槛](https://developer.apple.com/cn/help/app-store-connect/reference/minimum-payment-threshold)
+  - 没看到中国大陆的信息，需达到40美元才满足最低付费门槛
+- [查看销售额](https://appstoreconnect.apple.com/trends/insights?pageid=8)
+  - 7月份查看信息，显示的销售信息为 6月10日-7月9日的信息
